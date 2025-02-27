@@ -1,6 +1,6 @@
 public class Point {
     public double x, y;
-    public String toString(){
+    public String to_String(){
         return "("+p.x+", "+p.y+")";
     }
     public String toSVG(){
