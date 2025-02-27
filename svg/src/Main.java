@@ -4,6 +4,6 @@ public class Main {
         p.x = 0.4;
         p.y = 3.0;
         System.out.println("("+p.x+", "+p.y+")");
-        System.out.println("P: "+p.toString);
+        System.out.println("P: " + p.toString());
     }
 }

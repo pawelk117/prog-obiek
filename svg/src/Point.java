@@ -1,10 +1,12 @@
 public class Point {
     public double x, y;
+
+    @Override
     public String toString(){
-        return "(" + p.x + ", " + p.y + ")";
+        return "(" + x + ", " + y + ")";
     }
     public String toSVG(){
-        return "<circle r=\"45\" cx=\""+p.x+"\" cy=\""+p.y+"\" fill=\"red\" />";
+        return "<circle r=\"45\" cx=\"" + x + "\" cy=\"" + y + "\" fill=\"red\" />";
     }
     public void translate(double dx, double dy){
         x += dx;
