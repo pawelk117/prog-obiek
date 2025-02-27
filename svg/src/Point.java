@@ -1,7 +1,7 @@
 public class Point {
     public double x, y;
-    public String to_String(){
-        return "("+p.x+", "+p.y+")";
+    public String toString(){
+        return "(" + p.x + ", " + p.y + ")";
     }
     public String toSVG(){
         return "<circle r=\"45\" cx=\""+p.x+"\" cy=\""+p.y+"\" fill=\"red\" />";
